@@ -24,6 +24,7 @@ body {
 	color: #fff;
 	display: inline-block;
 	padding: 20px;
+	margin-left: 20px;
 	width: 100%;
 	text-align: center;
 	color: #000;
@@ -35,8 +36,11 @@ body {
 	background: #495057;
 	color: #fff;
 	text-decoration: none;
+	transform: translate(8px);
 }
-
+a:hover {
+	box-shadow: 0 0 25px #0e71d4;
+}
 .navegacion {
 	max-width: 1000px;
 	width: 90%;
